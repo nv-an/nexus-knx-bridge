@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "lucide-react": "^1.24.0",
-    "next": "16.2.12",
+    "next": "16.4.6",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
@@ -18,14 +18,16 @@
     "@tailwindcss/postcss": "^4.3.2",
     "autoprefixer": "^10.5.2",
     "eslint": "9.39.5",
-    "eslint-config-next": "16.2.12",
-    "postcss": "8.5.24",
+    "eslint-config-next": "16.4.6",
+    "postcss": "8.5.33",
     "tailwindcss": "^4.3.2"
   },
   "overrides": {
-    "postcss": "8.5.24",
-    "sharp": "0.35.3",
+    "postcss": "8.5.33",
+    "sharp": "0.35.5",
     "js-yaml": "4.3.1",
-    "nanoid": "3.3.17"
+    "nanoid": "3.3.18",
+    "source-map-js": "1.2.2",
+    "baseline-browser-mapping": "2.11.0"
   }
 }
