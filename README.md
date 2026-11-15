@@ -13,6 +13,21 @@ Zalo / Telegram -> OpenClaw KNX AI Agent -> Tools & Skills
 Web Admin ------------------------------> KNX Bridge -> KNX/IP -> KNX devices
 ```
 
+## Agent file classification
+
+This repository contains two separate categories of agent-related files:
+
+- **OpenClaw product runtime:** `openclaw/workspace-template/` and `skills/`
+  define the KNX assistant's runtime behavior, tools, authorization boundaries,
+  and controlled skill lifecycle.
+- **Development tooling:** `.agents/AGENTS.md`, `frontend/CLAUDE.md`, and
+  `frontend/AGENTS.md` contain repository-maintenance and Next.js development
+  guidance. They are not loaded by the deployed application or OpenClaw.
+
+See [Agent architecture and file roles](docs/AGENT_ARCHITECTURE.md) for the
+loading boundaries and purpose of each file. These files describe product or
+development behavior; repository authorship is represented by Git metadata.
+
 ## Release status
 
 The software is a **stable v1.0 release**. Automated installation, isolated
@@ -88,6 +103,7 @@ production database.
 - [Security](docs/SECURITY.md)
 - [Testing](docs/TESTING.md)
 - [OpenClaw integration](docs/OPENCLAW_INTEGRATION.md)
+- [Agent architecture and file roles](docs/AGENT_ARCHITECTURE.md)
 - [Known issues](docs/KNOWN_ISSUES.md)
 - [Changelog](docs/CHANGELOG.md)
 

@@ -1,6 +1,9 @@
 # Engineering Decisions Log
 
-This document tracks significant architectural and engineering decisions to prevent future AI agents from reverting or misunderstanding core designs.
+This document records significant architectural and engineering decisions for
+human maintainers and authorized development automation. It is engineering
+reference material, not an OpenClaw runtime prompt, and is not loaded
+automatically by the application.
 
 ## Decision 1: Shift Authorization out of AI Prompts
 - **Context:** Previously, the bot used display names ("Hai Lúa", "Boss An") and `IDENTITY.md` prompts to determine user privileges.

@@ -1,3 +1,11 @@
+# Development Tooling Notice
+
+> **Scope:** repository maintenance and software-development automation only.
+> This file is not copied into the OpenClaw workspace, is not loaded by the
+> Next.js application, and is not part of the KNX runtime. OpenClaw product
+> behavior is defined separately under `openclaw/workspace-template/` and
+> `skills/`. See `docs/AGENT_ARCHITECTURE.md` for the complete classification.
+
 # Code First
 Mục tiêu: 100 dòng code > 10 dòng tài liệu.
 AGENTS.md chỉ là hướng dẫn, không phải mục tiêu. Không lạm dụng việc cập nhật tài liệu.
